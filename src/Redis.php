@@ -1,6 +1,5 @@
 <?php
 
-
 namespace bangmoo\redis;
 
 use Exception;
