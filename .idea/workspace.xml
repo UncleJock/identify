@@ -9,4 +9,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="531" y="65" key="CommitChangelistDialog2" timestamp="1578712871868">
+      <screen x="84" y="0" width="1836" height="1080" />
+    </state>
+    <state x="531" y="65" key="CommitChangelistDialog2/84.0.1836.1080@84.0.1836.1080" timestamp="1578712871868" />
+    <state x="494" y="209" key="Vcs.Push.Dialog.v2" timestamp="1578712899552">
+      <screen x="84" y="0" width="1836" height="1080" />
+    </state>
+    <state x="494" y="209" key="Vcs.Push.Dialog.v2/84.0.1836.1080@84.0.1836.1080" timestamp="1578712899552" />
+  </component>
 </project>
