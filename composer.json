@@ -1,5 +1,5 @@
 {
-	"name": "bangmoo/redis",
+	"name": "com.bangmoo/redis",
 	"description": "redis rewrite",
 	"type": "library",
 	"license": "MIT",
