@@ -1,6 +1,6 @@
 {
-	"name": "com.bangmoo/redis",
-	"description": "redis rewrite",
+	"name": "com.bangmoo/idcardocr",
+	"description": "IDCardOCR",
 	"type": "library",
 	"license": "MIT",
 	"homepage": "https://github.com/UncleJock/bangmoo.git",
@@ -12,11 +12,11 @@
 	],
 	"require": {
 		"php": ">=7.0.0",
-		"ext-redis": "*"
+		"tencentcloud/tencentcloud-sdk-php": "^3.0"
 	},
 	"autoload": {
 		"psr-4": {
-			"bangmoo\\redis\\": "src/"
+			"bangmoo\\idcardocr\\": "src/"
 		}
 	},
     "minimum-stability": "stable"
