@@ -32,15 +32,16 @@ class idcardocr
     /**
      * 身份证识别
      * @param string $image_url
+     * @param string $cardSide
      * @return string
      * @author: chen
-     * @time: 2020/7/3 9:36
+     * @time: 2020/7/3 10:53
      */
-    public function cidcardocr($image_url = ''): string
+    public function cidcardocr($image_url = '', $cardSide = ''): string
     {
         try {
             $req = new IDCardOCRRequest();
-            $params = "{\"ImageUrl\":\"" . $image_url . "\"}";
+            $params = "{\"ImageUrl\":\"" . $image_url . "\",\"CardSide\":\"" . $cardSide . "\"}";
             $req->fromJsonString($params);
             $resp = $this->client->IDCardOCR($req);
             return $resp->toJsonString();
