@@ -14,22 +14,19 @@ class idcardocr
 
     private $client;
 
-
     /**
-     * 构造
-     * @param string $secretId
-     * @param string $secretKey
-     * @param string $region
+     * idcardocr constructor.
+     * @param array $option
      */
-    private function __construct(string $secretId = '', string $secretKey = '', string $region = '')
+    public function __construct(array $option = [])
     {
-        $cred = new Credential($secretId, $secretKey);
+        $cred = new Credential($option['secretId'], $option['secretKey']);
         $httpProfile = new HttpProfile();
         $httpProfile->setEndpoint("ocr.tencentcloudapi.com");
 
         $clientProfile = new ClientProfile();
         $clientProfile->setHttpProfile($httpProfile);
-        $this->client = new OcrClient($cred, $region, $clientProfile);
+        $this->client = new OcrClient($cred, $option['region'], $clientProfile);
     }
 
     /**
