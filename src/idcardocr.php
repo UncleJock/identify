@@ -13,8 +13,8 @@ class idcardocr
 {
 
     private $client;
-    protected $secretId = 'AKIDC9qEPKHXprMlcDpw0nKfmeGMefPxhG0T';
-    protected $secretKey = 'LkwrWu2vfHdlcOt74YliPpc8NJL6bqnT';
+    protected $secretId = '';
+    protected $secretKey = '';
     protected $region = 'ap-guangzhou';
 
 
