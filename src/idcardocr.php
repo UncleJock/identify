@@ -38,7 +38,7 @@ class idcardocr
      * @author: chen
      * @time: 2020/7/3 10:53
      */
-    public function cidcardocr(string $image_url = '', string $cardSide = ''): string
+    public function cidcardocr($image_url = '', $cardSide = ''): string
     {
         try {
             $req = new IDCardOCRRequest();
