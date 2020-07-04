@@ -6,9 +6,9 @@ use RuntimeException;
 use TencentCloud\Common\Credential;
 use TencentCloud\Common\Profile\ClientProfile;
 use TencentCloud\Common\Profile\HttpProfile;
+use TencentCloud\Ocr\V20181119\Models\BizLicenseOCRRequest;
 use TencentCloud\Ocr\V20181119\OcrClient;
 use TencentCloud\Ocr\V20181119\Models\IDCardOCRRequest;
-use TencentCloud\Ocr\V20181119\Models\BizLicenseOCRRequest;
 
 class idcardocr
 {
